@@ -38,6 +38,44 @@
   		.t2{
   			font-size: 40px;
   		}
+  		.container {
+  			border: 2px solid #ccc;
+  			background-color: #eee;
+  			border-radius: 5px;
+  			padding: 16px;
+  			margin: 16px 0
+		}
+		.container::after {
+  			content: "";
+  			clear: both;
+  			display: table;
+		}
+		.container span {
+  			font-size: 20px;
+  			margin-right: 15px;
+		}
+		.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
 </style>
 	</head>
 <body>
@@ -135,72 +173,47 @@
 </div>
 <center><h2>Happy to Help You!!</h2></center>
 
-    
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Manjot Singh</h5>
-          <p class="card-text">It's simple. Many times that is what you need. Get in. Work out. Get out. No overly complex graphics and controls for a million things you don't need. If you are some fitness guru type, maybe this is not up to your standard but If you are a regular person just trying to stay fit, this is definitely
-        </p>
-        < 
-          
-        </div>
-      </div>
-    <br>
-    
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Anurag Blog's</h5>
-          <p class="card-text">he voice guide is very helpful and somehow guesses what I'm doing wrong and corrects me lol. Great app. Looking forward to getting in some decent workout throughout the next few months. ⭐⭐⭐⭐⭐</p>
-          
-        </div>
-      </div>
-    
-  <br>
+</div> 
+      
+  
 
-  
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Vishal</h5>
-          <p class="card-text">its perfact. 
-        </p>
-        
-          
-        </div>
-      </div>
-    <br>
-   
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Yong Flex</h5>
-          <p class="card-text">I love the convenience of not having to go the gym and still feeling my workout in the comfort of my own home, when I'm out to sea on a vessel or at work. I can workout at anytime almost anywhere and there is little to equipment required.
-          </p>
-          
-        </div>
-      </div>
-    </div>
-  
-<br>
-  
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Arpit</h5>
-          <p class="card-text">Awesome. sir
-        </p>
-        
-        </div>
-      </div>
-    <br>
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Rianmeyers</h5>
-          <p class="card-text">It has so much good exersises.. It's very good.When i saw the picture of an adult ,I thought it was only for humans but when I tried this app I got muscles , abs and everything.I am also in a healthy condition .Thank you so much😉😉😉...</p>
-          
-        </div>
-      </div>
-    </div>
-  <br>
+<div>
+	
+
+<div class="container">
+	<img src="images/cl1.jpg" alt="Avatar" style="width:90px">
+  <p><span>Chris Fox.</span> Chairmen at adverd Schools.</p>
+  <p>Awesome</p>
+</div>
+
+<div class="container">
+	<img src="images/cl3.png" alt="Avatar" style="width:90px">
+  <p><span>Rebecca Flex.</span> CEO at Company.</p>
+  <p>No one is better than John Doe.</p>
+</div>
+
+<div class="container">
+	<img src="images/cl3.png" alt="Avatar" style="width:90px">
+  <p><span>Charlous</span> Youtuber</p>
+  <p>Its Amazing.</p>
+</div>
+
+<div class="container">
+	<img src="images/cl2.jpg" alt="Avatar" style="width:90px">
+  <p><span>Verg</span></p>
+  <p>Good <br> its very nice <br>I want Register this.</p>
+</div>
+
+<div class="container">
+
+  <p><span>Sharvan Bharti</span> Blogger</p>
+  <p>Keep it up!!</p>
+</div>
 
 
+
+
+</div>
 
 
 
